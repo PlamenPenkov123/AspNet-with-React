@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\migrations\\mydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:migrations\\mydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\migrations\\mydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:migrations\\mydbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\data\\mydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +42,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MyDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\Work\\Work Project\\WebApiWithReact\\Migrations\\MyDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\MyDbContextModelSnapshot.cs",
@@ -50,12 +50,11 @@
               "RelativeToolTip": "Migrations\\MyDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T08:08:09.758Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T08:08:09.758Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Work\\Work Project\\WebApiWithReact\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -74,7 +73,7 @@
               "RelativeDocumentMoniker": "Controllers\\PeopleController.cs",
               "ToolTip": "D:\\Work\\Work Project\\WebApiWithReact\\Controllers\\PeopleController.cs",
               "RelativeToolTip": "Controllers\\PeopleController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T08:05:44.106Z",
               "EditorCaption": ""
@@ -89,8 +88,7 @@
               "RelativeToolTip": "Models\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T07:54:59.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T07:54:59.634Z"
             },
             {
               "$type": "Document",
@@ -102,8 +100,7 @@
               "RelativeToolTip": "Data\\MyDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T07:49:00.381Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T07:49:00.381Z"
             },
             {
               "$type": "Document",
@@ -115,8 +112,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T07:05:14.464Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T07:05:14.464Z"
             }
           ]
         }

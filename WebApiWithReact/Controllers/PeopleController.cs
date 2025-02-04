@@ -47,10 +47,7 @@ namespace WebApiWithReact.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> PutPerson(int id, Person person)
         {
-            if (id != person.Id)
-            {
-                return BadRequest();
-            }
+            person.Id = id;
 
             _context.Entry(person).State = EntityState.Modified;
 
