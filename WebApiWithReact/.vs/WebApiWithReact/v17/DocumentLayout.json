@@ -62,8 +62,7 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-04T08:06:39.128Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-04T08:06:39.128Z"
             },
             {
               "$type": "Document",
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "Controllers\\PeopleController.cs",
               "ToolTip": "D:\\Work\\Work Project\\WebApiWithReact\\Controllers\\PeopleController.cs",
               "RelativeToolTip": "Controllers\\PeopleController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAuwFoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T08:05:44.106Z",
               "EditorCaption": ""
