@@ -1,0 +1,4 @@
+React Web App with an ASP.NET Web API for the backend with a connection to a SQL server to store information.
+
+To set up the API you will have to update your connections string in the "appsettings.json" file. 
+Then you will have to create the database using the "dotnet ef database update" command in the terminal of the project.
