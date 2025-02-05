@@ -1,4 +1,4 @@
-
+import api from "./api";
 
 export const ACTION_TYPES = {
     CREATE: 'CREATE',
@@ -8,9 +8,13 @@ export const ACTION_TYPES = {
 };
 
 export const fetchAll = () => dispatch => {
-    //get api request
-    dispatch({
-        type: ACTION_TYPES.FETCH_ALL,
-        payload: []
-    })
+    api.person().fetchAll()
+        .then(respone => {
+            dispatch({
+                type: ACTION_TYPES.FETCH_ALL,
+                payload: respone.data
+            })
+        })
+        .catch(err => console.log(err))
+
 };

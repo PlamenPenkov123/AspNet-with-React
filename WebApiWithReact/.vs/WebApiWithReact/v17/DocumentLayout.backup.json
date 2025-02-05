@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Work\\Work Project\\WebApiWithReact\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,19 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MyDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\Work\\Work Project\\WebApiWithReact\\Migrations\\MyDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Migrations\\MyDbContextModelSnapshot.cs",
               "ToolTip": "D:\\Work\\Work Project\\WebApiWithReact\\Migrations\\MyDbContextModelSnapshot.cs",
               "RelativeToolTip": "Migrations\\MyDbContextModelSnapshot.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T08:08:09.758Z"
+              "WhenOpened": "2025-02-04T08:08:09.758Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Work\\Work Project\\WebApiWithReact\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -67,20 +68,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PeopleController.cs",
               "DocumentMoniker": "D:\\Work\\Work Project\\WebApiWithReact\\Controllers\\PeopleController.cs",
               "RelativeDocumentMoniker": "Controllers\\PeopleController.cs",
               "ToolTip": "D:\\Work\\Work Project\\WebApiWithReact\\Controllers\\PeopleController.cs",
               "RelativeToolTip": "Controllers\\PeopleController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAwwFoAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAwwFoAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-04T08:05:44.106Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Person.cs",
               "DocumentMoniker": "D:\\Work\\Work Project\\WebApiWithReact\\Models\\Person.cs",
               "RelativeDocumentMoniker": "Models\\Person.cs",
@@ -88,11 +89,12 @@
               "RelativeToolTip": "Models\\Person.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T07:54:59.634Z"
+              "WhenOpened": "2025-02-04T07:54:59.634Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "MyDbContext.cs",
               "DocumentMoniker": "D:\\Work\\Work Project\\WebApiWithReact\\Data\\MyDbContext.cs",
               "RelativeDocumentMoniker": "Data\\MyDbContext.cs",
@@ -100,19 +102,21 @@
               "RelativeToolTip": "Data\\MyDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T07:49:00.381Z"
+              "WhenOpened": "2025-02-04T07:49:00.381Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Work\\Work Project\\WebApiWithReact\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\Work\\Work Project\\WebApiWithReact\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T07:05:14.464Z"
+              "WhenOpened": "2025-02-04T07:05:14.464Z",
+              "EditorCaption": ""
             }
           ]
         }
