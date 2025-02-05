@@ -1,17 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
-import { store } from './actions/store';
-import { Provider } from 'react-redux';
-import People from './components/People';
-import { Container } from '@mui/material';
+import ListOfPeople from './components/ListOfPeople';
+import Menu from './components/Menu';
 
 function App() {
   return (
-    <Provider store={store}>
-      <Container maxWidth="lg">
-        <People />
-      </Container>
-    </Provider>
+    <div className="container">
+      <Menu />
+      <ListOfPeople />
+    </div>
   );
 }
 
