@@ -41,6 +41,8 @@ function App() {
   const updateUser = id => {
     const person = people.find(user => user.id === id)
 
+    console.log(person);
+
     fetch(`https://localhost:7118/api/People/${id}`, {
       method: "PUT",
       body: CircularJSON.stringify(person),
@@ -84,10 +86,10 @@ function App() {
             <tr key={person.id}>
               <td>{person.id}</td>
               <td>
-                <input type="text" className="form-control" id="validationCustom01" placeholder="Name" defaultValue={person.fullName} onChange={value => onChangeHandler(person.id, "fullName", value)} required />
+                <input type="text" className="form-control" id="validationCustom01" placeholder="Name" defaultValue={person.fullName} onChange={e => onChangeHandler(person.id, "fullName", e.target.value)} required />
               </td>
               <td>
-                <input type="text" className="form-control" id="validationCustom01" placeholder="Email" defaultValue={person.email} onChange={value => onChangeHandler(person.id, "email", value)} required />
+                <input type="text" className="form-control" id="validationCustom01" placeholder="Email" defaultValue={person.email} onChange={e => onChangeHandler(person.id, "email", e.target.value)} required />
               </td>
               <td>
                 <button type="button" className="btn btn-primary" onClick={() => updateUser(person.id)}>
