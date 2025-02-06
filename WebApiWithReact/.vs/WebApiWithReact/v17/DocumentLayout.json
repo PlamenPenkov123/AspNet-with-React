@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\Work\\Work Project\\WebApiWithReact\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:controllers\\peoplecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|solutionrelative:models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CADC99AB-F97F-4265-8CF5-901244DAF66A}|WebApiWithReact.csproj|d:\\work\\work project\\webapiwithreact\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,19 +66,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PeopleController.cs",
               "DocumentMoniker": "D:\\Work\\Work Project\\WebApiWithReact\\Controllers\\PeopleController.cs",
               "RelativeDocumentMoniker": "Controllers\\PeopleController.cs",
-              "ToolTip": "D:\\Work\\Work Project\\WebApiWithReact\\Controllers\\PeopleController.cs",
-              "RelativeToolTip": "Controllers\\PeopleController.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAwwFoAAAAiAAAAAAAAAA==",
+              "ToolTip": "D:\\Work\\Work Project\\WebApiWithReact\\Controllers\\PeopleController.cs*",
+              "RelativeToolTip": "Controllers\\PeopleController.cs*",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAowEUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T08:05:44.106Z"
+              "WhenOpened": "2025-02-04T08:05:44.106Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Person.cs",
               "DocumentMoniker": "D:\\Work\\Work Project\\WebApiWithReact\\Models\\Person.cs",
               "RelativeDocumentMoniker": "Models\\Person.cs",
@@ -110,7 +111,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-04T07:05:14.464Z"
+              "WhenOpened": "2025-02-04T07:05:14.464Z",
+              "EditorCaption": ""
             }
           ]
         }

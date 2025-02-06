@@ -75,6 +75,7 @@ namespace WebApiWithReact.Controllers
         [HttpPost]
         public async Task<ActionResult<Person>> PostPerson(Person person)
         {
+            person.Id = 0;
             _context.People.Add(person);
             await _context.SaveChangesAsync();
 
