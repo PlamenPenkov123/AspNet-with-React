@@ -45,7 +45,7 @@ namespace WebApiWithReact.Controllers
         // PUT: api/People/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutPerson(int id, Person person)
+        public async Task<IActionResult> PutPerson(int id,[FromBody] Person person)
         {
             person.Id = id;
 

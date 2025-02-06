@@ -1,15 +1,16 @@
 import { useEffect, useState } from "react"
 import "./App.css"
+import CircularJSON from "circular-json"
 
 function App() {
-  const [users, setUsers] = useState([])
+  const [people, setPeople] = useState([])
   const [newName, setNewName] = useState("")
   const [newEmail, setNewEmail] = useState("")
 
   useEffect(() => {
     fetch("https://localhost:7118/api/People")
       .then(response => response.json())
-      .then(json => setUsers(json))
+      .then(json => setPeople(json))
   }, []);
 
   const addUser = () => {
@@ -30,7 +31,7 @@ function App() {
       })
       .then(response => response.json())
       .then(data => {
-        setUsers([...users, data])
+        setPeople([...people, data])
         setNewName("")
         setNewEmail("")
       })
@@ -38,32 +39,30 @@ function App() {
   }
 
   const updateUser = id => {
-    const user = users.find(user => user.id === id)
+    const person = people.find(user => user.id === id)
 
-    fetch('https://localhost:7118/api/People/' + id, {
+    fetch(`https://localhost:7118/api/People/${id}`, {
       method: "PUT",
-      body: JSON.stringify(user),
+      body: CircularJSON.stringify(person),
       headers: {
         "Content-type": "application/json; charset=UTF-8"
       }
     })
-    .then(response => response.json())
   }
 
   const onChangeHandler = (id, key, value) => {
-    setUsers(values => {
-      return values.map(item =>
-        item.id === id ? { ...item, [key]: value } : item
+    setPeople(values => {
+      return values.map(person =>
+        person.id === id ? { ...person, [key]: value } : person
       )
     })
   }
   const deleteUser = id => {
-    fetch(`https://jsonplaceholder.typicode.com/posts/${id}`, {
+    fetch(`https://localhost:7118/api/People/${id}`, {
       method: "DELETE",
     })
-      .then(response => response.json())
       .then(() => {
-        setUsers(values => {
+        setPeople(values => {
           return values.filter(item => item.id !== id)
         })
       })
@@ -81,21 +80,23 @@ function App() {
           </tr>
         </thead>
         <tbody>
-          {users.map(user => (
-            <tr key={user.id}>
-              <td>{user.id}</td>
+          {people.map(person => (
+            <tr key={person.id}>
+              <td>{person.id}</td>
               <td>
-                <input type="text" className="form-control" id="validationCustom01" placeholder="First name" defaultValue={user.fullName} onChange={value => onChangeHandler(user.id, "fullName", value)} required />
+                <input type="text" className="form-control" id="validationCustom01" placeholder="Name" defaultValue={person.fullName} onChange={value => onChangeHandler(person.id, "fullName", value)} required />
               </td>
               <td>
-                <input type="text" className="form-control" id="validationCustom01" placeholder="First name" defaultValue={user.email} onChange={value => onChangeHandler(user.id, "email", value)} required />
+                <input type="text" className="form-control" id="validationCustom01" placeholder="Email" defaultValue={person.email} onChange={value => onChangeHandler(person.id, "email", value)} required />
               </td>
               <td>
-                <button type="button" className="btn" onClick={() => updateUser(user.id)}>
+                <button type="button" className="btn btn-primary" onClick={() => updateUser(person.id)}>
                   Update
                 </button>
                 &nbsp;
-                <button type="button" className="btn" onClick={() => deleteUser(user.id)}>Delete</button>
+                <button type="button" className="btn btn-danger" onClick={() => deleteUser(person.id)}>
+                  Delete
+                </button>
               </td>
             </tr>
           ))}
