@@ -1,4 +1,8 @@
 React Web App with an ASP.NET Web API for the backend with a connection to a SQL server to store information.
 
+Make sure that you have atleast .NET8 and the latest version of node and npm on your device to be able to run the project
+
 To set up the API you will have to update your connections string in the "appsettings.json" file. 
 Then you will have to create the database using the "dotnet ef database update" command in the terminal of the project.
+After updating the database you will make sure that you start the web api in HTTPS mode.
+To start the react client navigate to the "client-app" folder and execute in the terminar the command "npm start"
